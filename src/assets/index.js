@@ -26,12 +26,22 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wirelessvision from './company/wirelessvision.png'
+import lenscraft from './company/lenscraft.png'
+import browardcollege from './company/browardcollege.png'
+import gpmobile from './company/gpmobile.png'
+import um from './company/um.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  um,
+  gpmobile,
+  browardcollege,
+  lenscraft,
+  wirelessvision,
   jmlogo,
   logo,
   backend,
