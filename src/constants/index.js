@@ -1,4 +1,8 @@
 import {
+    codegenie,
+    weatherdash,
+    socialapi,
+    mysql,
     browardcollege,
     um,
     gpmobile,
@@ -199,58 +203,50 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "WeatherDASH",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A weather tracker that allows users to search and view a 5 day forecast for a city using the OpenWeatherMap API",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: weatherdash,
+      source_code_link: "https://github.com/JuanSFL/Weather_Dashboard",
     },
     {
-      name: "Job IT",
+      name: "Social Network API",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A backend application for a social network where users can add friends, share thoughts, and react to other thoughts",
       tags: [
         {
-          name: "react",
+          name: "MongoDB",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: socialapi,
+      source_code_link: "https://github.com/JuanSFL/the-social-network-api",
     },
     {
-      name: "Trip Guide",
+      name: "Code Genie",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Social media application that lets users post and answer questions with a twist that ulitizes AI to answer questions on demand",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "AI",
           color: "green-text-gradient",
         },
         {
@@ -258,8 +254,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: codegenie,
+      source_code_link: "https://github.com/JuanSFL/Code_Genie",
     },
   ];
   

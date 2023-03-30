@@ -36,7 +36,16 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import mysql from "./mysql_project.png"
+import socialapi from "./socialApi.png"
+import weatherdash from "./weatherdash.png"
+import codegenie from "./codeGenie.png"
+
 export {
+  codegenie,
+  weatherdash,
+  socialapi,
+  mysql,
   um,
   gpmobile,
   browardcollege,
