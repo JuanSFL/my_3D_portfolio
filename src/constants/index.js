@@ -1,8 +1,8 @@
 import {
+    MERN_Library,
     codegenie,
     weatherdash,
     socialapi,
-    mysql,
     browardcollege,
     um,
     gpmobile,
@@ -10,26 +10,15 @@ import {
     wirelessvision,
     mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -174,33 +163,6 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
       name: "WeatherDASH",
@@ -222,6 +184,7 @@ import {
       ],
       image: weatherdash,
       source_code_link: "https://github.com/JuanSFL/Weather_Dashboard",
+      deployed_link: "https://juansfl.github.io/Weather_Dashboard/"
     },
     {
       name: "Social Network API",
@@ -235,6 +198,7 @@ import {
       ],
       image: socialapi,
       source_code_link: "https://github.com/JuanSFL/the-social-network-api",
+      deployed_link: "https://files.fm/f/49cbms7gy"
     },
     {
       name: "Code Genie",
@@ -246,7 +210,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "AI",
+          name: "Open_AI",
           color: "green-text-gradient",
         },
         {
@@ -256,7 +220,38 @@ import {
       ],
       image: codegenie,
       source_code_link: "https://github.com/JuanSFL/Code_Genie",
+      deployed_link: "https://glacial-beyond-25840.herokuapp.com/"
+    },
+    {
+      name: "MERN Book Search Engine",
+      description:
+        "Full Stack MERN application powered by Google's book API that allows users to create an account, search for books, and add them to a 'favorites' list.",
+      tags: [
+        {
+          name: "MERN Stack",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "REACT",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Node.Js",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: MERN_Library,
+      source_code_link: "https://github.com/JuanSFL/Code_Genie",
+      deployed_link: "https://fathomless-sierra-13338.herokuapp.com/"
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

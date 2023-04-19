@@ -40,8 +40,10 @@ import mysql from "./mysql_project.png"
 import socialapi from "./socialApi.png"
 import weatherdash from "./weatherdash.png"
 import codegenie from "./codeGenie.png"
+import MERN_Library from "./mern_library.png"
 
 export {
+  MERN_Library,
   codegenie,
   weatherdash,
   socialapi,
